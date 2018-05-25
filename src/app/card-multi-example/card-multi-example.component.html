@@ -1,0 +1,12 @@
+<p (ngsComplete)="log('all completed')" (ngsError)="log('error all')">
+  <ngs-card-number (blur)="log('blur',$event)" (change)="log('change',$event)"
+                   (focus)="log('focus',$event)" (complete)="log('complete',$event)" (error)="log('error',$event)"
+                   (ready)="log('ready',$event)"></ngs-card-number>
+  <ngs-card-expiry (blur)="log('blur',$event)" (change)="log('change',$event)"
+                   (focus)="log('focus',$event)" (complete)="log('complete',$event)" (error)="log('error',$event)"
+                   (ready)="log('ready',$event)"></ngs-card-expiry>
+  <ngs-card-cvc (blur)="log('blur',$event)" (change)="log('change',$event)"
+                (focus)="log('focus',$event)" (complete)="log('complete',$event)" (error)="log('error',$event)"
+                (ready)="log('ready',$event)"></ngs-card-cvc>
+
+</p>

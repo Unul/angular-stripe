@@ -1,0 +1,5 @@
+<p>
+  <ng-container *ngIf="(req$|async) as req">
+    <ngs-payment-request-button *ngIf="req.canMakePayment()" [paymentRequest]="req"></ngs-payment-request-button>
+  </ng-container>
+</p>

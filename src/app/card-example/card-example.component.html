@@ -1,0 +1,24 @@
+<pre>{{source|json}}</pre>
+<ngs-card (blur)="log('blur',$event)" (change)="log('change',$event)"
+          (focus)="log('focus',$event)" (complete)="log('complete',$event)" (error)="log('error',$event)"
+          (ready)="log('ready',$event)"></ngs-card>
+<pre> <code>
+  &lt;ngs-card (blur)="log('blur',$event)" (change)="log('change',$event)"
+            (focus)="log('focus',$event)" (complete)="log('complete',$event)" (error)="log('error',$event)"
+            (ready)="log('ready',$event)"&gt;&lt;/ngs-card&gt;
+</code></pre>
+<dl>
+  <dt><code>blur</code></dt>
+  <dd>Listen to blur events (<code>Stripe.Elements.Event</code>)</dd>
+  <dt><code>change</code></dt>
+  <dd>Listen to change events (<code>Stripe.Elements.ChangeEvent</code>)</dd>
+  <dt><code>focus</code></dt>
+  <dd>Listen to focus events</dd>
+  <dt><code>complete</code></dt>
+  <dd>That event emitter emits when the card element is fully completed</dd>
+  <dt><code>error</code></dt>
+  <dd>Emits a <code>stripe.Error</code> Object on error</dd>
+  <dt><code>ready</code></dt>
+  <dd>emits when the element is fully rendered</dd>
+
+</dl>
