@@ -1,6 +1,6 @@
 # AngularStripe
 
-[]You do not want to see this page](./projects/ng-stripe/README.md)
+[You do not want to see this page](./projects/ng-stripe/README.md)
 
 ># AngularStripe
 >
