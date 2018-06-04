@@ -1,6 +1,6 @@
 {
   "name": "@linkeo.com/ng-stripe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage":"https://github.com/linkeoWebAgency/angular-stripe/tree/master/projects/ng-stripe",
   "bugs":{
     "url":"https://github.com/linkeoWebAgency/angular-stripe/issues"
