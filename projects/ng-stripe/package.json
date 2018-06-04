@@ -1,6 +1,13 @@
 {
-  "name": "ng-stripe",
+  "name": "@linkeo.com/ng-stripe",
   "version": "0.0.1",
+  "homepage":"https://github.com/linkeoWebAgency/angular-stripe/tree/master/projects/ng-stripe",
+  "bugs":{
+    "url":"https://github.com/linkeoWebAgency/angular-stripe/issues"
+  },
+  "license":"WTFPL",
+  "author":"Julien Durens",
+  "repository":"https://github.com/linkeoWebAgency/angular-stripe/tree/master/projects/ng-stripe",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"

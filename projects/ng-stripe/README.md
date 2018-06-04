@@ -3,7 +3,7 @@ Angular-stripe
 
 ## Installation
 ```
-npm install --save angular-stripe
+npm install --save @linkeo.com/ng-stripe
 ```
 ## Use inside project
 You need to import `StripeModule` inside one of your module.
